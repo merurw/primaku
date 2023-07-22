@@ -1,0 +1,56 @@
+{
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/ArrowIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/ArrowIcon",
+    "files": [
+      "static/chunks/src_components_Icons_ArrowIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/CalendarIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/CalendarIcon",
+    "files": [
+      "static/chunks/src_components_Icons_CalendarIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/DangerIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/DangerIcon",
+    "files": [
+      "static/chunks/src_components_Icons_DangerIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/DoctorIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/DoctorIcon",
+    "files": [
+      "static/chunks/src_components_Icons_DoctorIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/EditIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/EditIcon",
+    "files": [
+      "static/chunks/src_components_Icons_EditIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/PhoneIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/PhoneIcon",
+    "files": [
+      "static/chunks/src_components_Icons_PhoneIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/QRIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/QRIcon",
+    "files": [
+      "static/chunks/src_components_Icons_QRIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/SearchIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/SearchIcon",
+    "files": [
+      "static/chunks/src_components_Icons_SearchIcon_tsx.js"
+    ]
+  },
+  "../components/Icons/Icon.tsx -> @/src/components/Icons/UsersIcon": {
+    "id": "../components/Icons/Icon.tsx -> @/src/components/Icons/UsersIcon",
+    "files": [
+      "static/chunks/src_components_Icons_UsersIcon_tsx.js"
+    ]
+  }
+}

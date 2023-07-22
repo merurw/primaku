@@ -1,0 +1,134 @@
+@import './pallete.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.input-text {
+			{
+			/* prettier-ignore */
+		}
+
+		@apply rounded-md block w-full border border-neutral-300 text-gray-500 placeholder:text-neutral-200;
+	}
+
+	.input-text:disabled {
+			{
+			/* prettier-ignore */
+		}
+
+		@apply border-neutral-300 placeholder:text-neutral-400;
+	}
+}
+
+@layer utilities {
+
+	/* Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none;
+		/* IE and Edge */
+		scrollbar-width: none;
+		/* Firefox */
+	}
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	margin: 0;
+	appearance: none;
+}
+
+.tab-content {
+	max-height: 0;
+	-webkit-transition: max-height .35s;
+	-o-transition: max-height .35s;
+	transition: max-height .35s;
+}
+
+/* :checked - resize to full height */
+.tab input:checked~.tab-content {
+	max-height: 100vh;
+}
+
+/* Label formatting when open */
+.tab input:checked+label {
+	/*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+	font-size: 1.25rem;
+	/*.text-xl*/
+	padding: 1.25rem;
+	/*.p-5*/
+	border-left-width: 2px;
+	/*.border-l-2*/
+	border-color: #ffff;
+	/*.border-indigo*/
+	background-color: #ffffff;
+	/*.bg-gray-100 */
+	/*.text-indigo*/
+}
+
+/* Icon */
+.tab label::after {
+	float: right;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1.5;
+	font-size: 1.25rem;
+	text-align: center;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+/* Icon formatting - closed */
+.tab input[type=checkbox]+label::after {
+	content: "+";
+	font-weight: bold;
+	/*.font-bold*/
+	border-width: 1px;
+	/*.border*/
+	border-radius: 9999px;
+	/*.rounded-full */
+	/*.border-grey*/
+	background-color: #3984E8;
+	color: #f8fafc;
+}
+
+.tab input[type=radio]+label::after {
+	content: "\25BE";
+	font-weight: bold;
+	/*.font-bold*/
+	border-width: 1px;
+	/*.border*/
+	border-radius: 9999px;
+	/*.rounded-full */
+	border-color: #b8c2cc;
+	/*.border-grey*/
+}
+
+/* Icon formatting - open */
+.tab input[type=checkbox]:checked+label::after {
+	transform: rotate(315deg);
+	background-color: #ff0000;
+	/*.bg-indigo*/
+	color: #f8fafc;
+	/*.text-grey-lightest*/
+}
+
+.tab input[type=radio]:checked+label::after {
+	transform: rotateX(180deg);
+	background-color: #6574cd;
+	/*.bg-indigo*/
+	color: #f8fafc;
+	/*.text-grey-lightest*/
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+}
